@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogwarts House</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/styles5.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+  <body>
+    <header id="mainHeader" style="background-color: rgba(255, 143, 143, 0.5);">
+      <nav id="menubar1">
+        <ul class="nav">
+            <!-- <li><a href="#" class="red">Gryffindor</a></li> -->
+            <li><img id="menuG" class="menuIcon" src="../img/G.png"></li>
+            <li><img id="menuH" class="menuIcon" src="../img/H.png"/></li>
+            <li><img id="menu" src="../img/HS1.png" onclick="goMain()"/></li>
+            <li><img id="menuR" class="menuIcon" src="../img/R.png"/></li>
+            <li><img id="menuS" class="menuIcon" src="../img/S.png"/></li>
+        </ul>
+      </nav>
+      <nav id="menubar2" style="display: none; margin-top: 30px;">
+        <input id="chBigMenu" type="hidden" value="">
+        <ul class="nav2">
+          <li class="bgImg" onclick="goMenuPage('')"><span></span><span class="colWhite ml9">설립이념</span></li>
+          <li class="bgImg" onclick="goMenuPage('S')"><span></span><span class="colWhite ml9">상징물</span></li>
+          <li class="bgImg" onclick="goMenuPage('P')"><span></span><span class="colWhite ml9">사감</span></li>
+          <li class="bgImg" onclick="goMenuPage('D')"><span></span><span class="colWhite ml9">대표인물</span></li>
+        </ul>
+      </nav>
+    </header>
+    
+    
+    
+    <div class="wrap">
+      <div class="bg3">
+        <div class="header"></div>
+      </div>
+      </div>
+      
+
+      <div class="main_text00">
+        <h1>대표 인물</h1>
+        <ul class="icons2">
+          <li>
+            <div class="icon_img">
+              <img src="../img/harry.PNG" style="height:500px;">
+            </div>
+            <div class="contents1_bold">Harry James Potter</div>
+            <div class="contents2">
+                1991~
+            </div>
+            <div class="more"onclick="window.open('https://harrypotter.fandom.com/wiki/Harry_Potter', '_blank');">
+              MORE
+            </div>
+          </li>
+
+          <li>
+            <div class="icon_img">
+              <img src="../img/her.jpeg" style="height:500px;">
+            </div>
+            <div class="contents1_bold">Hermione Jean Granger</div>
+            <div class="contents2">
+                1991~
+            </div>
+            <div class="more"onclick="window.open('https://harrypotter.fandom.com/wiki/Hermione_Granger', '_blank');">
+              MORE
+            </div>
+          </li>
+
+          <li>
+            <div class="icon_img">
+              <img src="../img/ron.jpeg" style="height:500px;">
+            </div>
+            <div class="contents1_bold">Ronald Bilius Weasley</div>
+            <div class="contents2">
+                1991~
+            </div>
+            <div class="more"onclick="window.open('https://harrypotter.fandom.com/wiki/Ronald_Weasley', '_blank');">
+              MORE
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      
+
+      <div class="main_text2">
+        <!-- 하단 이미지 -->
+    </div>
+
+    <div class="footer">
+      <div>
+        <img src="../img/HW.png" style="height:90px; margin-right: 10%;">
+      </div>
+      <div>
+        <div style="height:10%;"></div>
+        <div class="tcWhite">
+          Hogwarts <br>
+          Addr. United Kingdom Scotland somewhere <br>
+          (605) 475-6961
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <script src="../js/js.js"></script>
+  </body>
+</html>

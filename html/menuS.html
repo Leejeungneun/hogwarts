@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogwarts House</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/styles5.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+  <body>
+    <header id="mainHeader" style="background-color: rgba(103, 195, 144, 0.5);">
+      <nav id="menubar1">
+        <ul class="nav">
+            <li><img id="menuG" class="menuIcon" src="../img/G.png"></li>
+            <li><img id="menuH" class="menuIcon" src="../img/H.png"/></li>
+            <li><img id="menu" src="../img/HS1.png" onclick="goMain()"/></li>
+            <li><img id="menuR" class="menuIcon" src="../img/R.png"/></li>
+            <li><img id="menuS" class="menuIcon" src="../img/S.png"/></li>
+        </ul>
+      </nav>
+      <nav id="menubar2" style="display: none; margin-top: 30px;">
+        <input id="chBigMenu" type="hidden" value="">
+        <ul class="nav2">
+            <li class="bgImg" onclick="goMenuPage('')"><span></span><span class="colWhite ml9">설립이념</span></li>
+            <li class="bgImg" onclick="goMenuPage('S')"><span></span><span class="colWhite ml9">상징물</span></li>
+            <li class="bgImg" onclick="goMenuPage('P')"><span></span><span class="colWhite ml9">사감</span></li>
+            <li class="bgImg" onclick="goMenuPage('D')"><span></span><span class="colWhite ml9">대표인물</span></li>
+        </ul>
+      </nav>
+    </header>
+    
+    
+    
+    <div class="wrap">
+      <div class="s_bg">
+        <div class="header"></div>
+        <div class="intro_text">
+          <h1 class="main">Slytherin House</h1>
+          <h4 class="contents1">"We'll teach just those whose ancestry is purest."<br>-Salazar Slytherin-</h4>
+        </div>
+      </div>
+      </div>
+      <!-- intro end-->
+      
+
+      <div class="main_text0">
+        <h1>Traits</h1>
+        <div class="contents1">슬리데린에서 진정한 친구를 사귈 수 있다. 그 교활한 사람들은 목적을 달성하기 위해 모든 수단을 사용한다.</div>
+        
+        <ul class="icons">
+          <li style="background-color:rgb(142, 193, 162);">
+            <div class="icon_img" >
+              <img src="../img/pride.png" style="height:210px;">
+            </div>
+            <div class="contents1_bold" style="font-size: 25px;">Pride</div>
+
+          </li>
+
+          <li style="background-color: #d3d3d3;">
+            <div class="icon_img" >
+              <img src="../img/cunning.png" style="height:210px;">
+            </div>
+            <div class="contents1_bold" style="font-size: 25px;">Cunning</div>
+            
+          </li>
+
+          <li style="background-color:rgb(142, 193, 162);">
+            <div class="icon_img" >
+              <img src="../img/ambition.png" style="height:210px;">
+            </div>
+            <div class="contents1_bold" style="font-size: 25px;">Ambition</div>
+
+            
+          </li>
+        </ul>
+      </div>
+
+      <div class="main_text1">
+        <h1>INTORDUCE</h1>
+        <div class="contents1">We'll teach just those whose ancestry is purest.</div>
+        <div class="service">
+          <div class="food_photo">
+            <img src="../img/sly.jpeg" style="height: 440px; border: 5px solid rgb(0, 87, 3);">
+          </div>
+          <div class="contents2">
+              <h2>Salazar Slytherin</h2>
+              10세기의 마법사로 호그와트의 설립자 중 한 사람이다.
+              <br><br>그는 Parseltongue를 구사하는 희귀한 마법의 재능을 가지고 있었으며
+              <br>젊은 시절 Godric Gryffindor와 절친한 사이였지만 교육관의 차이로 갈라지게 되었다.
+              <br><br>교활함과 지략, 야먕과 권력욕을 최고의 가치로 여겼으며
+              <br>무엇보다 중요한 것은 순수한 혈통 이였다.
+              <br><br>순혈주의 마법사만을 선별하여 교육시키고자 하여 만들어진 기숙사가 [ Slytherin ] 이다.
+          </div>
+        </div>
+      </div>
+
+      <div class="main_text2">
+          <!-- 하단 이미지 -->
+      </div>
+
+      <div class="footer">
+        <div>
+          <img src="../img/HW.png" style="height:100px; margin-right: 10%;">
+        </div>
+        <div>
+          <div style="height:10%;"></div>
+          <div class="tcWhite">
+            Hogwarts <br>
+            Addr. United Kingdom Scotland somewhere <br>
+            (605) 475-6961
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/js.js"></script>
+  </body>
+</html>

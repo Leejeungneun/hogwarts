@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogwarts House</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/styles5.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+  <body>
+    <header id="mainHeader" style="background-color: rgba(255, 250, 177, 0.5);">
+      <nav id="menubar1">
+        <ul class="nav">
+            <!-- <li><a href="#" class="red">Gryffindor</a></li> -->
+            <li><img id="menuG" class="menuIcon" src="../img/G.png"></li>
+            <li><img id="menuH" class="menuIcon" src="../img/H.png"/></li>
+            <li><img id="menu" src="../img/HS1.png" onclick="goMain()"/></li>
+            <li><img id="menuR" class="menuIcon" src="../img/R.png"/></li>
+            <li><img id="menuS" class="menuIcon" src="../img/S.png"/></li>
+        </ul>
+      </nav>
+      <nav id="menubar2" style="display: none; margin-top: 30px;">
+        <input id="chBigMenu" type="hidden" value="">
+        <ul class="nav2">
+            <li class="bgImg" onclick="goMenuPage('')"><span></span><span class="colWhite ml9">설립이념</span></li>
+            <li class="bgImg" onclick="goMenuPage('S')"><span></span><span class="colWhite ml9">상징물</span></li>
+            <li class="bgImg" onclick="goMenuPage('P')"><span></span><span class="colWhite ml9">사감</span></li>
+            <li class="bgImg" onclick="goMenuPage('D')"><span></span><span class="colWhite ml9">대표인물</span></li>
+        </ul>
+      </nav>
+    </header>
+    
+    
+    
+    <div class="wrap">
+      <div class="h_bg">
+        <div class="header"></div>
+        <div class="intro_text">
+          <h1 class="main" style="color:black ;">Hufflepuff House</h1>
+          <h4 class="contents1" style="color:black ;">"I will teach the lot, and treat them just the same."<br>-Helga Hufflepuff-</h4>
+        </div>
+      </div>
+      </div>
+      <!-- intro end-->
+      
+
+      <div class="main_text0">
+        <h1>Traits</h1>
+        <div class="contents1">그들은 정의롭고 고결하다. 인내심 많은 후플푸프는 진실하다. 그리고 수고를 두려워하지 않는다.</div>
+        
+        <ul class="icons">
+          <li style="background-color:rgb(255, 244, 146);">
+            <div class="icon_img" >
+              <img src="../img/modesty.png" style="height:210px;">
+            </div>
+            <div class="contents1_bold" style="font-size: 25px;">Modesty</div>
+
+          </li>
+
+          <li style="background-color: rgb(204, 204, 204);">
+            <div class="icon_img" >
+              <img src="../img/fairness.png" style="height:210px;">
+            </div>
+            <div class="contents1_bold" style="font-size: 25px;">Fairness</div>
+            
+          </li>
+
+          <li style="background-color:rgb(255, 244, 146);">
+            <div class="icon_img" >
+              <img src="../img/patience.png" style="height:210px;">
+            </div>
+            <div class="contents1_bold" style="font-size: 25px;">Patience</div>
+
+            
+          </li>
+        </ul>
+      </div>
+
+      <div class="main_text1">
+        <h1>INTORDUCE</h1>
+        <div class="contents1">I will teach the lot, and treat them just the same.</div>
+        <div class="service">
+          <div class="food_photo">
+            <img src="../img/Huff.jpeg" style="height: 440px; border: 5px solid rgb(250, 242, 0);">
+          </div>
+          <div class="contents2">
+              <h2>Helga Hufflepuff</h2>
+              10세기 영국 웨일스의 넓은 계곡에서 태어난 마녀로, 
+              <br>호그와트의 설립자 중 한 사람이며 Rowena Ravenclaw와 절친한 친구였다.
+              <br><br>후플푸프는 음식과 관련된 마법에 뛰어나
+              <br>그녀가 고안해 낸 음식 레시피는 현재까지도 호그와트에서 사용되어지고 있다.
+              <br><br>학생들을 존중해 다른 설립자들과는 다르게 성향을 정하지는 않았지만
+              <br>성실성과, 노력, 궂은 일을 마다하지 않는 정직함을 제일 중요한 가치로 생각했다.
+              <br>그런 그녀의 성향을 바탕으로 만들어진 기숙사가 [ Hufflepuff ] 이다.
+          </div>
+        </div>
+      </div>
+
+      <div class="main_text2">
+          <!-- 하단 이미지 -->
+      </div>
+
+      <div class="footer">
+        <div>
+          <img src="../img/HW.png" style="height:100px; margin-right: 10%;">
+        </div>
+        <div>
+          <div style="height:10%;"></div>
+          <div class="tcWhite">
+            Hogwarts <br>
+            Addr. United Kingdom Scotland somewhere <br>
+            (605) 475-6961
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/js.js"></script>
+  </body>
+</html>

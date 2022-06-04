@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogwarts House</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/styles5.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+  <body>
+    <header id="mainHeader" style="background-color: rgba(255, 143, 143, 0.5);">
+      <nav id="menubar1">
+        <ul class="nav">
+            <!-- <li><a href="#" class="red">Gryffindor</a></li> -->
+            <li><img id="menuG" class="menuIcon" src="../img/G.png"></li>
+            <li><img id="menuH" class="menuIcon" src="../img/H.png"/></li>
+            <li><img id="menu" src="../img/HS1.png" onclick="goMain()"/></li>
+            <li><img id="menuR" class="menuIcon" src="../img/R.png"/></li>
+            <li><img id="menuS" class="menuIcon" src="../img/S.png"/></li>
+        </ul>
+      </nav>
+      <nav id="menubar2" style="display: none; margin-top: 30px;">
+        <input id="chBigMenu" type="hidden" value="">
+        <ul class="nav2">
+            <li class="bgImg" onclick="goMenuPage('')"><span></span><span class="colWhite ml9">설립이념</span></li>
+            <li class="bgImg" onclick="goMenuPage('S')"><span></span><span class="colWhite ml9">상징물</span></li>
+            <li class="bgImg" onclick="goMenuPage('P')"><span></span><span class="colWhite ml9">사감</span></li>
+            <li class="bgImg" onclick="goMenuPage('D')"><span></span><span class="colWhite ml9">대표인물</span></li>
+        </ul>
+      </nav>
+    </header>
+    
+    
+    
+    <div class="wrap">
+      <div class="g_bg">
+        <div class="header"></div>
+        <div class="intro_text">
+          <h1 class="main">Gryffindor House</h1>
+          <h4 class="contents1">"We'll teach those with brave deeds to their name."<br>-Godric Gryffindor-</h4>
+        </div>
+      </div>
+      </div>
+      <!-- intro end-->
+      
+
+      <div class="main_text0">
+        <h1>Traits</h1>
+        <div class="contents1">용감한 마음이 머무는 곳, 그들의 대담함, 신경, 기사도는 그리핀도르를 구별 한다</div>
+        
+        <ul class="icons">
+          <li style="background-color:rgb(255, 229, 162);">
+            <div class="icon_img" >
+              <img src="../img/fire.png" style="height:210px;">
+            </div>
+            <div class="contents1_bold" style="font-size: 25px;">Bravery</div>
+
+          </li>
+
+          <li style="background-color: rgb(255, 193, 193);">
+            <div class="icon_img" >
+              <img src="../img/determination.png" style="height:210px;">
+            </div>
+            <div class="contents1_bold" style="font-size: 25px;">Determination</div>
+            
+          </li>
+
+          <li style="background-color:rgb(255, 229, 162);">
+            <div class="icon_img" >
+              <img src="../img/Chivalry.png" style="height:210px;">
+            </div>
+            <div class="contents1_bold" style="font-size: 25px;">Chivalry</div>
+
+            
+          </li>
+        </ul>
+      </div>
+
+      <div class="main_text1">
+        <h1>INTORDUCE</h1>
+        <div class="contents1">We'll teach those with brave deeds to their name.</div>
+        <div class="service">
+          <div class="food_photo">
+            <img src="../img/gdr.jpeg" style="height: 440px; border: 5px solid rgb(255, 0, 0);">
+          </div>
+          <div class="contents2">
+              <h2>Godric Gryffindor</h2>
+              10세기 잉글랜드의 고드릭 골짜기에서 태어난 마법사로, 
+              <br>호그와트의 설립자 중 한 사람이다.
+              <br><br>마법사인 동시에 검술에도 일가견이 있어서 
+              <br>당대 최고의 전사라고 불릴 만큼 뛰어난 마법 실력과 전투력을 자랑했다. 
+              <br><br>용기와 결의, 강인하면서도 숭고한 마음을 최고의 가치로 여겨 
+              <br>대담함과 고결하고 정의로운 기사도 정신을 지닌 학생을 육성하자고 하여
+              <br>만들어진 기숙사가 [ Gryffindor ] 이다.
+          </div>
+        </div>
+      </div>
+
+      <div class="main_text2">
+          <!-- 하단 이미지 -->
+      </div>
+
+      <div class="footer">
+        <div>
+          <img src="../img/HW.png" style="height:100px; margin-right: 10%;">
+        </div>
+        <div>
+          <div style="height:10%;"></div>
+          <div class="tcWhite">
+            Hogwarts <br>
+            Addr. United Kingdom Scotland somewhere <br>
+            (605) 475-6961
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/js.js"></script>
+  </body>
+</html>
