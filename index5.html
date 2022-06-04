@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogwarts House</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/styles5.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+  <body>
+    <header id="mainHeader">
+        <nav id="menubar1">
+            <ul class="nav">
+                <!-- <li><a href="#" class="red">Gryffindor</a></li> -->
+                <li><img id="menuG" class="menuIcon" src="./img/G.png"></li>
+                <li><img id="menuH" class="menuIcon" src="./img/H.png"/></li>
+                <li><img id="menu" src="./img/HS1.png" onclick="goMain()"/></li>
+                <li><img id="menuR" class="menuIcon" src="./img/R.png"/></li>
+                <li><img id="menuS" class="menuIcon" src="./img/S.png"/></li>
+            </ul>
+        </nav>
+        <nav id="menubar2" style="display: none; margin-top: 30px;">
+          <input id="chBigMenu" type="hidden" value="">
+          <ul class="nav2">
+            <li class="bgImg" onclick="goMenuPage('')"><span></span><span class="colWhite ml9">설립이념</span></li>
+            <li class="bgImg" onclick="goMenuPage('S')"><span></span><span class="colWhite ml9">상징물</span></li>
+            <li class="bgImg" onclick="goMenuPage('P')"><span></span><span class="colWhite ml9">사감</span></li>
+            <li class="bgImg" onclick="goMenuPage('D')"><span></span><span class="colWhite ml9">대표인물</span></li>
+          </ul>
+        </nav>
+    </header>
+
+    <div class="wrap">
+      <div class="intro_bg">
+        <div class="header"></div>
+        <div class="intro_text">
+          <h1 class="main">Hogwarts School</h1>
+          <h4 class="contents1">Witchcraft and Wizardry</h4>
+        </div>
+      </div>
+      </div>
+      <!-- intro end-->
+      <ul class="amount">
+        <li>
+          <div>
+            <div class="contents1">개교 년도</div>
+            <div class="result">993년</div>
+          </div>
+        </li>
+        <li>
+          <div>
+            <div class="contents1">제학생 수</div>
+            <div class="result">약 600명</div>
+          </div>
+        </li>
+        <li>
+          <div>
+            <div class="contents1">학년제</div>
+            <div class="result"> 7학년제</div>
+          </div>
+        </li>
+        <li>
+            <div>
+              <div class="contents1">성별</div>
+              <div class="result">남녀공학</div>
+            </div>
+        </li>
+      </ul>
+      <!-- amount end -->
+
+      <div class="main_text0">
+        <h1>SYMBOL</h1>
+        <div class="contents1">DRACO DORMIENS NUNQUAM TITILLANDUS</div>
+        
+        <ul class="icons">
+          <li>
+            <div class="icon_img">
+              <img src="./img/HW.png" style="height:130px;">
+            </div>
+            <div class="contents1_bold"> 휘장 </div>
+            <div class="contents2">
+              잠자는 용을 간지럽히지 말라.
+            </div>
+            <div class="more" onclick="window.open('https://harrypotter.fandom.com/wiki/Hogwarts_School_of_Witchcraft_and_Wizardry', '_blank');" >
+              MORE
+            </div>
+          </li>
+
+          <li>
+            <div class="icon_img">
+              <img src="./img/school2.png" style="height:130px;">
+            </div>
+            <div class="contents1_bold">교가</div>
+            <div class="contents2">
+              Hogwarts, Hogwarts, Hoggy War...
+            </div>
+            <div class="more" onclick="window.open('./html/gyoga.html', '교가', 'width=500,height=500,location=no,resizeable=no')">
+              MORE
+            </div>
+          </li>
+
+          <li>
+            <div class="icon_img">
+              <img src="./img/letter.png" style="height:130px; width: 190px;">
+            </div>
+            <div class="contents1_bold">입학</div>
+            <div class="contents2">
+               영국 학생들만 입학이 가능하다.
+            </div>
+            <div class="more" onclick="window.open('https://my.wizardingworld.com/login', '_blank');">
+              MORE
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="main_text1">
+        <h1>For You</h1>
+        <div class="contents1">It does not to dwell on dreams and forget to live.</div>
+        <div class="service">
+          <div class="food_photo">
+            <img src="./img/dum.PNG" style="height: 440px; border: 5px solid rgb(189, 161, 1);">
+          </div>
+          <div class="contents2">
+              <h2>Prof.&nbsp; Albus Percival Wulfric Brian Dumbledore</h2>
+              알버스 덤블도어, 현 호그와트 교장이다.<br>
+              <br>현대의 가장 위대한 마법사라고 평가받는 덤블도어 교수는 
+              <br>1945년 어둠의 마법사 그린델왈드를 물리치고,
+              <br>용의 피를 사용하는 열두 가지 방법을 발견했으며,
+              <br>동료인 니콜라 플라멜과 연금술 연구를 함께한 것으로 특히 유명하다.
+              <br>참고로 덤블도어 교수는 실내음악과 볼링을 즐긴다.
+
+              <br><br><span style="font-weight:bold ;">[ 상훈 ]</span>
+              <ul>
+                <li><span style="font-weight:bold ;">-</span> 바너버스 핑클리 상</li>
+                <li><span style="font-weight:bold ;">-</span> 바르나부스 상</li>
+                <li><span style="font-weight:bold ;">-</span> 국제 연금술 학회 금메달 (획기적인 기여 부문)</li>
+                <li><span style="font-weight:bold ;">-</span> 멀린 1등급 훈장</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="main_text2">
+        <ul>
+          <li>
+            <div><h1>CONTACT</h1></div>
+            <div>머글들을 위한 페이지</div>
+            <div class="more2" onclick="window.open('https://www.wizardingworld.com/', '_blank');">더 알아보기</div>
+          </li>
+          <li></li>
+        </ul>
+      </div>
+
+      <div class="footer">
+        <div>
+          <img src="./img/HW.png" style="height:100px; margin-right: 10%;">
+        </div>
+        <div>
+          <div style="height:10%;"></div>
+          <div class="tcWhite">
+            Hogwarts <br>
+            Addr. United Kingdom Scotland somewhere <br>
+            (605) 475-6961
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/js.js"></script>
+  </body>
+</html>
